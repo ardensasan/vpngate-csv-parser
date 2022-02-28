@@ -14,7 +14,7 @@ try {
         fs.writeFileSync('results.txt', JSON.stringify(results))
     })
 } catch (error) {
-    console.log('%c 🍚 error: ', 'font-size:20px;background-color: #FCA650;color:#fff;', error);
+    console.log(error);
 }
 
 csvParser({ separator: '\t' });
