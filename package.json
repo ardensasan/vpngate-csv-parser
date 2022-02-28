@@ -1,0 +1,13 @@
+{
+  "name": "vpngate-csv-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Arden Johannes Sasan <ajsasan@dnamicro.com>",
+  "license": "MIT",
+  "description": "parse the csv from vpngate and saves to text file",
+  "repository": "https://github.com/ardensasan/vpngate-csv-parser.git",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.3"
+  }
+}
